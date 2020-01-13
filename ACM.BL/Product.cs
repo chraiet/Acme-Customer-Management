@@ -23,18 +23,6 @@ namespace ACM.BL
         public string ProductDescription { get; set; }
         public decimal? CurrentPrice { get; set; }
 
-        //  Retrieve one product.
-        public Product Retrieve(int productId)
-        {
-            return new Product();
-        }
-
-        //  Saves the current product.
-        public bool Save()
-        {
-            return true;
-        }
-
         //  Validates the product data.
         public bool Validate()
         {
